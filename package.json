@@ -1,0 +1,22 @@
+{
+  "name": "deanlol-links",
+  "version": "1.0.0",
+  "description": "a place to store cool links i find",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o docs",
+    "deploy": "npm run build && echo links.dean.lol > docs/CNAME && git add -A && git commit -m 'update' && git push",
+    "css:build": "node-sass --omit-source-map-url assets/sass/styles.scss public/css/styles.css",
+    "css:watch": "npm run css:build -- --watch"
+  },
+  "author": "jollygrin",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "next": "^9.5.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

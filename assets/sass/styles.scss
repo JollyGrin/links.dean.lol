@@ -1,0 +1,103 @@
+$color-sand: #e7cc98;
+$color-dark: #363636;
+$font-title: 'Abril Fatface', cursive;
+$font-sub: 'Indie Flower', sans-serif;
+$font-text: 'Lato', sans-serif;
+
+body {
+  background-color: $color-sand;
+}
+
+#header {
+  display: block;
+  color: $color-dark;
+
+  & h1 {
+    font-family: $font-title;
+  }
+
+  & h3 {
+    font-family: $font-sub;
+  }
+}
+
+#panes {
+  padding-top: 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 1em;
+  color: $color-dark;
+  & .pane {
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 1em;
+
+    & .pane-title {
+      font-family: $font-title;
+      font-size: 2rem;
+      padding-bottom: 1em;
+      text-decoration: underline solid rgba(48, 48, 48, 0.3);
+    }
+  }
+}
+
+.linkBox {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1em;
+
+  & .text > h1 {
+    font-family: $font-text;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  & .text > h3 {
+    font-family: $font-text;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
+
+  & .icon > a > i {
+    font-size: 1.75rem;
+    padding: 0 0.5rem;
+    color: $color-sand;
+    transition: color 0.75s ease-in-out, font-size 0.75s ease-in-out;
+  }
+
+  & .icon > a > i:hover {
+    font-size: 2rem;
+    color: red;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    padding: 4em;
+  }
+
+  #header {
+    & h1 {
+      font-size: 3.5rem;
+    }
+    & h3 {
+      font-size: 2rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1em;
+  }
+
+  #header {
+    & h1 {
+      font-size: 2rem;
+    }
+    & h3 {
+      font-size: 1.5rem;
+    }
+  }
+}
