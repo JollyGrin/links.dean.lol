@@ -47,13 +47,28 @@ body {
     font-size: 2rem;
     color: red; }
 
+footer {
+  padding-top: 3em;
+  display: flex;
+  font-family: "Indie Flower", sans-serif;
+  color: #363636;
+  opacity: 0.75; }
+  footer a {
+    color: inherit;
+    transition: color 0.75s ease-in-out; }
+  footer a:hover {
+    color: initial; }
+
 @media (min-width: 600px) {
   body {
     padding: 4em; }
   #header h1 {
     font-size: 3.5rem; }
   #header h3 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  footer {
+    flex-direction: row;
+    justify-content: space-evenly; } }
 
 @media (max-width: 600px) {
   body {
@@ -61,4 +76,10 @@ body {
   #header h1 {
     font-size: 2rem; }
   #header h3 {
-    font-size: 1.5rem; } }
+    font-size: 1.5rem; }
+  footer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    footer span {
+      padding: 0.5em; } }

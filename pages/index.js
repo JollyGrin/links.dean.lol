@@ -5,6 +5,7 @@ import CategoryTable from '../lib/CategoryTable';
 import Layout from '../components/Layout';
 import Header from '../components/Header';
 import Panes from '../components/Panes';
+import Footer from '../components/Footer';
 
 export default function Index({ sheetData, preview }) {
   const sheetObject = parseLink(sheetData);
@@ -15,6 +16,7 @@ export default function Index({ sheetData, preview }) {
     <Layout>
       <Header />
       <Panes table={newTable} />
+      <Footer />
     </Layout>
   );
 }
