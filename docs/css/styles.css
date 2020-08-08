@@ -1,0 +1,64 @@
+body {
+  background-color: #e7cc98; }
+
+#header {
+  display: block;
+  color: #363636; }
+  #header h1 {
+    font-family: "Abril Fatface", cursive; }
+  #header h3 {
+    font-family: "Indie Flower", sans-serif; }
+
+#panes {
+  padding-top: 3em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 1em;
+  color: #363636; }
+  #panes .pane {
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 1em; }
+    #panes .pane .pane-title {
+      font-family: "Abril Fatface", cursive;
+      font-size: 2rem;
+      padding-bottom: 1em;
+      text-decoration: underline solid rgba(48, 48, 48, 0.3); }
+
+.linkBox {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1em; }
+  .linkBox .text > h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    padding-bottom: 0.25rem; }
+  .linkBox .text > h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3px; }
+  .linkBox .icon > a > i {
+    font-size: 1.75rem;
+    padding: 0 0.5rem;
+    color: #e7cc98;
+    transition: color 0.75s ease-in-out, font-size 0.75s ease-in-out; }
+  .linkBox .icon > a > i:hover {
+    font-size: 2rem;
+    color: red; }
+
+@media (min-width: 600px) {
+  body {
+    padding: 4em; }
+  #header h1 {
+    font-size: 3.5rem; }
+  #header h3 {
+    font-size: 2rem; } }
+
+@media (max-width: 600px) {
+  body {
+    padding: 1em; }
+  #header h1 {
+    font-size: 2rem; }
+  #header h3 {
+    font-size: 1.5rem; } }
