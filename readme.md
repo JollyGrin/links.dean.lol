@@ -12,7 +12,7 @@ I really wanted a page to share the fun links I come across and couldn't find an
 
 1. Make a copy of this [google sheet](https://docs.google.com/spreadsheets/d/1eZKV6ol9lUYO9FURO2_gTHbFATGAqhkyssG9Rs5Ves4/edit?usp=sharing)
 1. In the settings select File > Publish to Web > select .CSV
-   ![](https://i.imgur.com/PXAwv4a.mp4)
+   ![](https://i.imgur.com/U2rZfrw.gif)
 
 # Connect the Google Sheet
 
