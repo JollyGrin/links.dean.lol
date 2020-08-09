@@ -29,3 +29,7 @@ I really wanted a page to share the fun links I come across and couldn't find an
 
 2. Check out how to point your domain DNS towards github pages, [I personally prefer using cloudflare](https://medium.com/@samdutton/github-pages-cloudflare-custom-domain-checklist-e86c786194a4).
 3. Upload your repository to your own github, click settings and enable domains.
+
+
+*Confused?*
+[Watch me make this site from design to deployment.](https://twitter.com/dmasley/status/1292177004662530048?s=20)
