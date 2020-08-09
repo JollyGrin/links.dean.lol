@@ -19,8 +19,6 @@ export default class Pane extends Component {
             <h3>{this.props.link.desc}</h3>
           </div>
         </div>
-
-        {console.log(this.props.link)}
       </Fragment>
     );
   }
