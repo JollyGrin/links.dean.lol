@@ -2,6 +2,8 @@
 
 I really wanted a page to share the fun links I come across and couldn't find anything I liked so made this.
 
+Built with: NextJS, FontAwesome, Google Sheets, Github Pages, and designed with Figma.
+
 Demo: https://links.dean.lol
 ![](https://i.imgur.com/OntXvt5.png)
 
