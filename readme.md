@@ -2,6 +2,9 @@
 
 I really wanted a page to share the fun links I come across and couldn't find anything I liked so made this.
 
+Demo: https://links.dean.lol
+![](https://i.imgur.com/OntXvt5.png)
+
 # Fork this and make it your own
 
 1. Fork/clone this project (`git clone`)
